@@ -1,0 +1,135 @@
+*{
+	margin: 0;
+	border: 0;
+}
+body{
+  background-image: url('images/apps.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+.firstnav{
+
+	margin: 0 auto;
+	width: 80%;
+}
+
+.one{
+
+	margin-top: 10px;
+}
+
+div.one a{
+	
+	color: white;
+
+}
+ div.one a:hover{
+
+	color: red;
+}
+.two,.three,.four,.five{
+
+	display: inline-block;
+	float: right;
+}
+
+.two,.three,.four,.five{
+  width: 150px;
+  margin: auto;
+  margin-top: 10px;
+  border: 2px solid white;
+  margin-left: 20px;
+  text-align: center;
+
+}
+.two:hover{
+  transform: scale(1.1);
+  transition: all ease 500ms;
+}
+.three:hover{
+  transform: scale(1.1);
+  transition: all ease 500ms;
+}
+.four:hover{
+  transform: scale(1.1);
+  transition: all ease 500ms;
+}
+
+.five:hover{
+  transform: scale(1.1);
+  transition: all ease 500ms;
+}
+.one:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+@keyframes shake {
+ 0% { transform: translate(1px, 1px) rotate(0deg); }
+ 10% { transform: translate(-1px, -2px) rotate(-1deg); }
+ 20% { transform: translate(-3px, 0px) rotate(1deg); }
+ 30% { transform: translate(3px, 2px) rotate(0deg); }
+ 40% { transform: translate(1px, -1px) rotate(1deg); }
+ 50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+ 70% { transform: translate(3px, 1px) rotate(-1deg); }
+80% { transform: translate(-1px, -1px) rotate(1deg); }
+90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+.highlight{
+ font-size: 32px;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 4px #fff, 0 0 8px #fff, 0 0 12px #e60073, 0 0 16px #e60073, 0 0 20px #e60073, 0 0 24px #e60073, 0 0 28px #e60073;
+  }
+  
+  to {
+    text-shadow: 0 0 8px #fff, 0 0 12px #ff4da6, 0 0 16px #ff4da6, 0 0 20px #ff4da6, 0 0 24px #ff4da6, 0 0 28px #ff4da6, 0 0 32px #ff4da6;
+  }
+}
+
+/*this is the second part*/
+
+
+.contacts{
+
+  border: cover;
+  background-color: rgba(191, 191, 191, 0.5);
+    color: rgb(255, 0, 255);
+  border:2px solid  green;
+  padding: 100px 100px 100px 100px;
+}
+i{
+  font-size: 2em;
+  padding-top: 10px;
+}
+
+.whatsapp{
+     color: white;
+     border: 1px solid black
+     padding-bottom: 20px;
+     font-size: 2em;
+}
+
+.fb {
+ color: blue;
+ border: 1px solid black
+  padding-bottom: 20px;
+     font-size: 2em;
+}
+
+.mail a{
+   color: red;
+   border: 1px solid black
+    padding-bottom: 20px;
+     font-size: 2em;
+}
